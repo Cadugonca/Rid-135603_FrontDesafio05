@@ -1,5 +1,5 @@
 
-const API_URL = 'https://apibiblioteca.netlify.app/'
+const API_URL = 'https://apibiblioteca-rmvs.onrender.com/'
 
 export async function getLivros() {
   const response = await fetch(API_URL)
