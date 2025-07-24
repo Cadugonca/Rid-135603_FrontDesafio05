@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3000"
+const BASE_URL = "https://apibiblioteca-rmvs.onrender.com/"
 
 export class LivrosService{
     static getLivros(){
