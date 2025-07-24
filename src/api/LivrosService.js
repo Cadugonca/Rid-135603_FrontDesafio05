@@ -1,10 +1,10 @@
 import axios from "axios";
 
-const BASE_URL = "https://apibiblioteca-rmvs.onrender.com/"
+const BASE_URL = "https://apibiblioteca-rmvs.onrender.com"
 
 export class LivrosService{
     static getLivros(){
-        return axios.get(`${BASE_URL}+/livros`);
+        return axios.get(`${BASE_URL}/livros`);
     }
 
     static getLivro(id){
