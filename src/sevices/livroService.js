@@ -1,5 +1,5 @@
 
-const API_URL = 'https://apibiblioteca-rmvs.onrender.com/'
+const API_URL = 'const API_URL = https://apibiblioteca-rmvs.onrender.com/livros'
 
 export async function getLivros() {
   const response = await fetch(API_URL)
